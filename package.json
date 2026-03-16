@@ -1,0 +1,31 @@
+{
+  "name": "joyjump",
+  "version": "5.0.0",
+  "description": "JoyJump v5 \u2014 Phase 2: Illustrated Characters",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@supabase/supabase-js": "^2.44.4",
+    "framer-motion": "^11.3.8",
+    "@lottiefiles/dotlottie-react": "^0.13.0",
+    "howler": "^2.2.4",
+    "canvas-confetti": "^1.9.3",
+    "zustand": "^4.5.4",
+    "clsx": "^2.1.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.35",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6"
+  }
+}
