@@ -1,0 +1,316 @@
+{
+  "world": "science",
+  "title": "Science Ocean",
+  "character": "nova",
+  "color": "#1E88E5",
+  "bgColor": "#E3F2FD",
+  "description": "Nova the Fox explores animals, plants, and the world!",
+  "topics": [
+    {
+      "id": "sci-eating-habits",
+      "title": "Eating Habits of Animals",
+      "emoji": "🦁",
+      "term": "first",
+      "month": "April",
+      "skills": [
+        {
+          "id": "sci-eat-types",
+          "title": "Herbivores, carnivores and omnivores",
+          "lessons": [
+            {
+              "id": "sci-eat-1",
+              "title": "What do animals eat?",
+              "type": "story",
+              "character": "nova",
+              "story": "Nova the Fox says: 'Did you know animals are grouped by what they eat?' HERBIVORES eat only plants — like cows and rabbits. CARNIVORES eat only meat — like lions and eagles. OMNIVORES eat both plants and animals — like bears and humans. Which one are you?",
+              "game": {
+                "type": "sorting",
+                "question": "Sort the animals by what they eat!",
+                "categories": ["Herbivore", "Carnivore", "Omnivore"],
+                "items": [
+                  { "name": "Cow", "category": 0 },
+                  { "name": "Lion", "category": 1 },
+                  { "name": "Bear", "category": 2 },
+                  { "name": "Deer", "category": 0 },
+                  { "name": "Shark", "category": 1 },
+                  { "name": "Crow", "category": 2 }
+                ],
+                "hint": "Herbivore = plants only. Carnivore = meat only. Omnivore = both!"
+              },
+              "quiz": [
+                { "q": "Animals that eat only plants are called ______.", "options": ["carnivores","omnivores","herbivores","insectivores"], "correct": 2 },
+                { "q": "Which animal is a carnivore?", "options": ["Elephant","Tiger","Rabbit","Horse"], "correct": 1 },
+                { "q": "Humans are ______.", "options": ["herbivores","carnivores","omnivores","scavengers"], "correct": 2 }
+              ],
+              "rewards": { "stars": 3, "coins": 12, "badge": null }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-materials",
+      "title": "What are Things Made of?",
+      "emoji": "🔧",
+      "term": "first",
+      "month": "April",
+      "skills": [
+        {
+          "id": "sci-materials-basic",
+          "title": "Materials around us",
+          "lessons": [
+            {
+              "id": "sci-materials-1",
+              "title": "Wood, metal, plastic and more!",
+              "type": "story",
+              "character": "nova",
+              "story": "Nova looks around her lab! The table is made of WOOD. The spoon is made of METAL. The bottle is made of PLASTIC. The window is made of GLASS. Everything around us is made of materials — and each material has special properties!",
+              "game": {
+                "type": "drag_match",
+                "question": "Match each object to the material it is made of!",
+                "pairs": [
+                  { "item": "Chair", "match": "Wood" },
+                  { "item": "Coin", "match": "Metal" },
+                  { "item": "Water bottle", "match": "Plastic" },
+                  { "item": "Window pane", "match": "Glass" }
+                ],
+                "hint": "Think about what each object is made of in real life!"
+              },
+              "quiz": [
+                { "q": "Which material is transparent (you can see through it)?", "options": ["Wood","Metal","Glass","Plastic"], "correct": 2 },
+                { "q": "A good conductor of electricity is ______.", "options": ["wood","rubber","plastic","metal"], "correct": 3 },
+                { "q": "Which material comes from trees?", "options": ["metal","glass","wood","plastic"], "correct": 2 }
+              ],
+              "rewards": { "stars": 3, "coins": 10, "badge": null }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-rocks-soil",
+      "title": "Rocks and Soil",
+      "emoji": "🪨",
+      "term": "first",
+      "month": "May",
+      "skills": [
+        {
+          "id": "sci-rocks-types",
+          "title": "Types of rocks and soil",
+          "lessons": [
+            {
+              "id": "sci-rocks-1",
+              "title": "Rocks — hard and amazing!",
+              "type": "story",
+              "character": "nova",
+              "story": "Nova digs in the earth! She finds rocks of different kinds. IGNEOUS rocks form from cooled lava (like granite). SEDIMENTARY rocks form from layers of sand and mud (like sandstone). METAMORPHIC rocks form when heat and pressure change other rocks (like marble). Rocks make up the ground beneath our feet!",
+              "game": {
+                "type": "tap_correct",
+                "question": "Rocks that form when lava cools are called ______.",
+                "options": ["Sedimentary", "Metamorphic", "Igneous", "Crystal"],
+                "correct": 2,
+                "hint": 'Igneous comes from the Latin word for fire!'
+              },
+              "quiz": [
+                { "q": "Marble is a ______ rock.", "options": ["igneous","sedimentary","metamorphic","volcanic"], "correct": 2 },
+                { "q": "Which type of soil is best for farming?", "options": ["Sandy soil","Clayey soil","Loamy soil","Rocky soil"], "correct": 2 },
+                { "q": "Sandstone is formed from layers of ______.", "options": ["lava","sand and mud","other rocks under heat","crystals"], "correct": 1 }
+              ],
+              "rewards": { "stars": 3, "coins": 12, "badge": null }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-living-nonliving",
+      "title": "Living and Non-Living Things",
+      "emoji": "🌿",
+      "term": "first",
+      "month": "July",
+      "skills": [
+        {
+          "id": "sci-living-characteristics",
+          "title": "Characteristics of living things",
+          "lessons": [
+            {
+              "id": "sci-living-1",
+              "title": "What makes something alive?",
+              "type": "story",
+              "character": "nova",
+              "story": "Nova asks: 'What makes a cat different from a rock?' LIVING things breathe, grow, move, eat, reproduce and respond. A cat breathes, grows bigger, moves around and has kittens! A rock does none of these. NON-LIVING things like stones, water and books don't do these things.",
+              "game": {
+                "type": "sorting",
+                "question": "Sort into living and non-living!",
+                "categories": ["Living", "Non-Living"],
+                "items": [
+                  { "name": "Tree", "category": 0 },
+                  { "name": "Stone", "category": 1 },
+                  { "name": "Fish", "category": 0 },
+                  { "name": "Book", "category": 1 },
+                  { "name": "Mushroom", "category": 0 },
+                  { "name": "Water", "category": 1 }
+                ],
+                "hint": "Living things breathe, grow and reproduce!"
+              },
+              "quiz": [
+                { "q": "Which is a characteristic of living things?", "options": ["They are hard","They grow and reproduce","They cannot move","They are made of metal"], "correct": 1 },
+                { "q": "Which of these is a non-living thing?", "options": ["Bacteria","Mushroom","Cloud","Grass"], "correct": 2 },
+                { "q": "How many characteristics of living things are there?", "options": ["3","4","6","10"], "correct": 2 }
+              ],
+              "rewards": { "stars": 3, "coins": 12, "badge": null }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-plants",
+      "title": "Parts of a Plant",
+      "emoji": "🌱",
+      "term": "first",
+      "month": "August",
+      "skills": [
+        {
+          "id": "sci-plant-parts",
+          "title": "Roots, stem, leaves, flower, fruit",
+          "lessons": [
+            {
+              "id": "sci-plant-1",
+              "title": "Every part of a plant has a job!",
+              "type": "story",
+              "character": "nova",
+              "story": "Nova plants a seed! She watches it grow. The ROOT absorbs water from the soil. The STEM carries water up to the leaves. LEAVES make food using sunlight (photosynthesis!). FLOWERS attract insects for pollination. FRUITS protect the seeds inside!",
+              "game": {
+                "type": "drag_match",
+                "question": "Match each plant part to its job!",
+                "pairs": [
+                  { "item": "Root", "match": "Absorbs water from soil" },
+                  { "item": "Leaf", "match": "Makes food using sunlight" },
+                  { "item": "Flower", "match": "Attracts insects for pollination" },
+                  { "item": "Fruit", "match": "Protects the seeds" }
+                ],
+                "hint": "Each part of the plant does a special job!"
+              },
+              "quiz": [
+                { "q": "Which part of a plant makes food?", "options": ["Root","Stem","Leaf","Flower"], "correct": 2 },
+                { "q": "Roots help a plant by ______.", "options": ["making food","absorbing water","attracting insects","producing fruit"], "correct": 1 },
+                { "q": "The process of making food in leaves is called ______.", "options": ["respiration","photosynthesis","pollination","germination"], "correct": 1 }
+              ],
+              "rewards": { "stars": 4, "coins": 15, "badge": "science_explorer" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-human-body",
+      "title": "The Human Body",
+      "emoji": "🫀",
+      "term": "final",
+      "month": "October",
+      "skills": [
+        {
+          "id": "sci-body-organs",
+          "title": "Our body organs and systems",
+          "lessons": [
+            {
+              "id": "sci-body-1",
+              "title": "Our amazing body!",
+              "type": "story",
+              "character": "nova",
+              "story": "Nova studies the human body! The BRAIN controls everything. The HEART pumps blood. The LUNGS breathe air. The STOMACH digests food. The SKELETON gives us shape and protects organs. All these organs work together as systems — the nervous system, circulatory system, digestive system!",
+              "game": {
+                "type": "drag_match",
+                "question": "Match each organ to its main job!",
+                "pairs": [
+                  { "item": "Heart", "match": "Pumps blood" },
+                  { "item": "Lungs", "match": "Breathe in oxygen" },
+                  { "item": "Brain", "match": "Controls the body" },
+                  { "item": "Stomach", "match": "Digests food" }
+                ],
+                "hint": "Each organ does one special important job!"
+              },
+              "quiz": [
+                { "q": "Which organ pumps blood around the body?", "options": ["Brain","Lungs","Heart","Kidney"], "correct": 2 },
+                { "q": "The digestive system's main organ is the ______.", "options": ["heart","brain","stomach","lungs"], "correct": 2 },
+                { "q": "How many bones does an adult human body have?", "options": ["100","206","150","300"], "correct": 1 }
+              ],
+              "rewards": { "stars": 3, "coins": 15, "badge": null }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-light-sound-force",
+      "title": "Light, Sound and Force",
+      "emoji": "💡",
+      "term": "final",
+      "month": "October",
+      "skills": [
+        {
+          "id": "sci-lsf-basic",
+          "title": "Understanding light, sound and force",
+          "lessons": [
+            {
+              "id": "sci-light-1",
+              "title": "Light travels in straight lines!",
+              "type": "story",
+              "character": "nova",
+              "story": "Nova shines a torch! LIGHT travels in straight lines. It bounces off shiny surfaces (reflection). When it passes through water or glass, it bends (refraction). SOUND travels as vibrations — we hear when sound waves reach our ears. FORCE is a push or pull that moves or stops things.",
+              "game": {
+                "type": "tap_correct",
+                "question": "When light bounces off a mirror, it is called ______.",
+                "options": ["Refraction", "Reflection", "Absorption", "Dispersion"],
+                "correct": 1,
+                "hint": "Re-FLECT — light bounces back like a ball!"
+              },
+              "quiz": [
+                { "q": "Sound is produced by ______.", "options": ["light","vibrations","heat","reflection"], "correct": 1 },
+                { "q": "A push or pull is called a ______.", "options": ["energy","force","sound","light"], "correct": 1 },
+                { "q": "Light travels ______ sound.", "options": ["slower than","at the same speed as","faster than","after"], "correct": 2 }
+              ],
+              "rewards": { "stars": 3, "coins": 15, "badge": null }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-earth",
+      "title": "The Earth",
+      "emoji": "🌍",
+      "term": "final",
+      "month": "November",
+      "skills": [
+        {
+          "id": "sci-earth-basic",
+          "title": "Our planet Earth",
+          "lessons": [
+            {
+              "id": "sci-earth-1",
+              "title": "Day and night, seasons and the solar system",
+              "type": "story",
+              "character": "nova",
+              "story": "Nova looks up at the night sky! The EARTH rotates (spins) on its axis — this gives us day and night. It also revolves (travels) around the SUN — this gives us seasons! It takes 365 days for Earth to go around the Sun once — that's one YEAR!",
+              "game": {
+                "type": "sequence",
+                "question": "Put the seasons in order starting from Summer!",
+                "options": ["Summer → Monsoon → Winter → Spring", "Winter → Summer → Spring → Monsoon", "Spring → Summer → Monsoon → Winter", "Monsoon → Winter → Summer → Spring"],
+                "correct": 0,
+                "hint": "In India: Summer (April-June) → Monsoon (July-Sept) → Winter (Oct-Feb) → Spring (March)!"
+              },
+              "quiz": [
+                { "q": "Day and night are caused by Earth's ______.", "options": ["revolution","rotation","orbit","tilt"], "correct": 1 },
+                { "q": "Earth takes ______ days to go around the Sun.", "options": ["30","100","365","24"], "correct": 2 },
+                { "q": "The layer of gases around Earth is called the ______.", "options": ["hydrosphere","lithosphere","atmosphere","biosphere"], "correct": 2 }
+              ],
+              "rewards": { "stars": 4, "coins": 20, "badge": "earth_explorer" }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
